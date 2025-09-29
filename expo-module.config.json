@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["AutoSizingViewModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.autosizingview.AutoSizingViewModule"]
+  }
+}

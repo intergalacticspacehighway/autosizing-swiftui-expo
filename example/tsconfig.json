@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "auto-sizing-view": ["../src/index"],
+      "auto-sizing-view/*": ["../src/*"]
+    }
+  }
+}
