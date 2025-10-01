@@ -5,8 +5,8 @@ import { Host } from "@expo/ui/swift-ui";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Host matchContents>
-        <AutoSizingView style={{ backgroundColor: "red" }} />
+      <Host matchContents style={{ backgroundColor: "red" }}>
+        <AutoSizingView />
       </Host>
     </View>
   );
